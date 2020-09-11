@@ -1,0 +1,48 @@
+Thumbs.db
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.MDF
+*.LDF
+*.sdf
+*.sln.docstates
+*.tlb
+*.tlh
+*.bak
+# *.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+.JustCode
+aspnet_client*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+[Aa]udit*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+*/*.Local.config
+# App.config
+*/appsettings.json
+*.jmconfig
+*.orig
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+#*/packages/
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+.vs
+packages*/
