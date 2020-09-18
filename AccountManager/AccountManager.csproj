@@ -4,4 +4,8 @@
 	  <TargetFrameworks>netstandard2.0;netcoreapp2.1;netcoreapp2.2;netcoreapp3.1;net47</TargetFrameworks>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SLC.Tools.Encryption" Version="1.0.0.2002" />
+  </ItemGroup>
+
 </Project>

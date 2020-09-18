@@ -32,7 +32,7 @@ namespace SLC.MicroService.AccountManager.Service
     {
         public AccountManagerService(string[] args)
         {
-
+            SLC.MicroService.AccountManager.Processors.ProcessorAccountManager.Initialize();
         }
         [DllImport("advapi32.dll", SetLastError = true)]
         private static extern bool SetServiceStatus(System.IntPtr handle, ref ServiceStatus serviceStatus);
